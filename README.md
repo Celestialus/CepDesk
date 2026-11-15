@@ -27,7 +27,6 @@ NativeDesktop'ı kullanmadan önce aşağıdaki uygulamaları yükleyin.
 Gerekli uygulamaları yükledikten sonra Termux'u açın ve aşağıdaki kurulum adımlarını takip edin.
 
 ## Kurulum
-Gerekli uygulamaları yükledikten sonra Termux'u açın ve aşağıdaki kurulum adımlarını takip edin.
 
 ## KURMA KOMUTU:
 ```

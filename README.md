@@ -13,8 +13,13 @@
 - Termux:X11
 
 ## Kurulum
+## İNDİRME KOMUTU İÇİN:
+wget -O install.sh https://raw.githubusercontent.com/Celestialus/Termux-Native-Desktop-T-rk-e-Kurulum/main/install.sh
+bash install.sh
 
-Kurulum komutları yakında eklenecek.
+## BAŞLATMA KOMUTU İÇİN:
+wget -O start.sh https://raw.githubusercontent.com/Celestialus/Termux-Native-Desktop-T-rk-e-Kurulum/main/start.sh
+bash start.sh
 
 ## 🇹🇷 Projenin Amacı
 

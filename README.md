@@ -1,4 +1,4 @@
-# Termux Native Desktop Türkçe Otomatik Kurulum
+# CepDesk Türkçe Otomatik Kurulum
 
 ## Özellikler
 - XFCE4 kurulumu
@@ -14,7 +14,7 @@
 
 ## 📥 Gerekli Uygulamalar (Downloads)
 
-NativeDesktop'ı kullanmadan önce aşağıdaki uygulamaları yükleyin.
+CepDesk'i kullanmadan önce aşağıdaki uygulamaları yükleyin.
 
 ### 1. Termux
 - [Termux GitHub Releases](https://github.com/termux/termux-app/releases)
@@ -40,7 +40,7 @@ bash start.sh
 ```
 ## 🇹🇷 Projenin Amacı
 
-NativeDesktop, İngilizce bilmeyen veya Termux komutlarına aşina olmayan Android kullanıcılarının Linux masaüstü ortamlarını kolayca kurabilmesi için geliştirilmektedir.
+CepDesk, İngilizce bilmeyen veya Termux komutlarına aşina olmayan Android kullanıcılarının Linux masaüstü ortamlarını kolayca kurabilmesi için geliştirilmektedir.
 
 Amacımız, karmaşık kurulum komutlarını basitleştirerek herkesin Android cihazında Linux masaüstü deneyimi yaşayabilmesini sağlamaktır.
 
@@ -48,7 +48,7 @@ Proje geliştirme aşamasındadır.
 
 ## 🇬🇧 Project Purpose
 
-NativeDesktop is being developed to help Android users who do not speak English or are unfamiliar with Termux commands easily install Linux desktop environments.
+CepDesk is being developed to help Android users who do not speak English or are unfamiliar with Termux commands easily install Linux desktop environments.
 
 Our goal is to simplify complex installation commands and make the Linux desktop experience more accessible to everyone.
 

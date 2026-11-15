@@ -1,11 +1,11 @@
 #Gerekli Dosyaları İndirir Hemen!
 echo "Gerekli Dosyalar İndiriliyor..."
-pkg update
+pkg update -y && pkg upgrade -y
 pkg install git && pkg install wget -y
-pkg install x11-repo
-pkg install termux-x11-nightly
-pkg install pulseaudio
-pkg install wget
+pkg install x11-repo -y
+pkg install termux-x11-nightly -y
+pkg install pulseaudio -y
+pkg install wget -y
 
 echo "Gerekli Dosyalar İndirildi!"
 #Masaüstü Ortamı Kuruluyor Hemen!

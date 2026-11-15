@@ -59,9 +59,11 @@ This project is currently under development.
 
 Bu proje, LinuxDroidMaster'ın
 Termux-Desktops projesinden esinlenmiştir.
+
 Github:
 
 https://github.com/LinuxDroidMaster/Termux-Desktops
+
 Youtube:
 
 https://www.youtube.com/@LinuxDroidMaster

@@ -29,12 +29,12 @@ Gerekli uygulamaları yükledikten sonra Termux'u açın ve aşağıdaki kurulum
 ## Kurulum
 Gerekli uygulamaları yükledikten sonra Termux'u açın ve aşağıdaki kurulum adımlarını takip edin.
 
-## İNDİRME KOMUTU İÇİN:
+## KURMA KOMUTU:
 ```
 wget -O install.sh https://raw.githubusercontent.com/Celestialus/Termux-Native-Desktop-T-rk-e-Kurulum/main/install.sh
 bash install.sh
 ```
-## BAŞLATMA KOMUTU İÇİN:
+## BAŞLATMA KOMUTU:
 ```
 wget -O start.sh https://raw.githubusercontent.com/Celestialus/Termux-Native-Desktop-T-rk-e-Kurulum/main/start.sh
 bash start.sh

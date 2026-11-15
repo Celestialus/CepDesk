@@ -1,4 +1,11 @@
 # CepDesk Türkçe Otomatik Kurulum
+<p align="center">
+  <img src="CepDesk.png" width="250">
+</p>
+
+<h1 align="center">CepDesk</h1>
+
+
 
 ## Özellikler
 - XFCE4 kurulumu

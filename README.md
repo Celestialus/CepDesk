@@ -12,7 +12,23 @@
 - Termux
 - Termux:X11
 
+## 📥 Gerekli Uygulamalar (Downloads)
+
+NativeDesktop'ı kullanmadan önce aşağıdaki uygulamaları yükleyin.
+
+### 1. Termux
+- [Termux GitHub Releases](https://github.com/termux/termux-app/releases)
+
+### 2. Termux:X11
+- [Termux:X11 GitHub Releases](https://github.com/termux/termux-x11/releases/tag/nightly)
+
+**Önemli:** Termux ve eklentilerini aynı dağıtım kaynağından indirin. Farklı kaynakların APK imzaları uyuşmayabilir ve kurulum hatası oluşabilir.
+
+Gerekli uygulamaları yükledikten sonra Termux'u açın ve aşağıdaki kurulum adımlarını takip edin.
+
 ## Kurulum
+Gerekli uygulamaları yükledikten sonra Termux'u açın ve aşağıdaki kurulum adımlarını takip edin.
+
 ## İNDİRME KOMUTU İÇİN:
 ```
 wget -O install.sh https://raw.githubusercontent.com/Celestialus/Termux-Native-Desktop-T-rk-e-Kurulum/main/install.sh

@@ -1,6 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
 
+
 kill -9 $(pgrep -f "termux.x11") 2>/dev/null
 
 

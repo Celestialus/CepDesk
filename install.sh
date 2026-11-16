@@ -1,24 +1,104 @@
-#Gerekli Dosyaları İndirir Hemen!
-echo "Gerekli Dosyalar İndiriliyor..."
-pkg install git -y
-pkg install x11-repo -y
-pkg install termux-x11-nightly -y
-pkg install pulseaudio -y
-pkg install wget -y
 
-echo "Gerekli Dosyalar İndirildi!"
-#Masaüstü Ortamı Kuruluyor Hemen!
-echo "Masaüstü Ortamı Kuruluyor..."
+#!/data/data/com.termux/files/usr/bin/bash
 
-pkg install xfce4 -y
+# CepDesk v0.2.0
 
-echo "Masaüstü Ortamı Kuruldu!"
-#Tarayıcı ve Tur-Repo Kuruluyor Hemen!
-echo "Tarayıcı ve Tur-Repo Kuruluyor..."
-pkg install tur-repo -y
-pkg update -y
-pkg install chromium -y
+clear
 
-echo "Tarayıcı ve Tur-Repo Kuruldu!"
+echo "================================"
+echo "           CepDesk"
+echo "          v0.2.0"
+echo "================================"
+echo ""
+echo "Kurulum turunu secin:"
+echo ""
+echo "[1] Native Desktop"
+echo "[2] PRoot-Distro"
+echo ""
 
-echo "Kurulum Tamamlandı!"
+while true
+do
+    read -rp "Seciminiz: " secim
+
+    case "$secim" in
+
+        1)
+            echo ""
+            echo "Native Desktop kurulumu baslatiliyor..."
+            break
+            ;;
+
+        2)
+            echo ""
+            echo "PRoot-Distro kurulumu secildi."
+            break
+            ;;
+
+        *)
+            echo "Hatali secim! 1 veya 2 girin."
+            ;;
+
+    esac
+done
+
+
+# Native Desktop kurulumu
+
+native_install() {
+
+    echo "Gerekli dosyalar indiriliyor..."
+
+    pkg update -y
+    pkg install git x11-repo termux-x11-nightly pulseaudio wget -y
+
+    echo "Masaustu ortami kuruluyor..."
+
+    pkg install xfce4 -y
+
+    echo "Tarayici ve Tur-Repo kuruluyor..."
+
+    pkg install tur-repo -y
+    pkg update -y
+    pkg install chromium -y
+
+    echo "Native Desktop kurulumu tamamlandi!"
+}
+
+
+# PRoot-Distro kurulumu
+
+proot_install() {
+
+    echo "Gerekli paketler kuruluyor..."
+
+    pkg update -y
+    pkg install x11-repo termux-x11-nightly pulseaudio proot-distro -y
+
+    echo ""
+    echo "Debian kuruluyor..."
+
+    proot-distro install debian
+
+    echo ""
+    echo "Debian kurulumu tamamlandi!"
+    echo "Giris yapmak icin:"
+    echo "proot-distro login debian"
+}
+
+
+# Secime gore kurulumu baslat
+
+case "$secim" in
+
+    1)
+        native_install
+        ;;
+
+    2)
+        proot_install
+        ;;
+
+esac
+
+echo ""
+echo "CepDesk kurulumu tamamlandi!"

@@ -8,7 +8,7 @@
 
 
 ## Özellikler
-- XFCE4 kurulumu
+- XFCE kurulumu
 - Termux:X11 desteği
 - PulseAudio kurulumu
 - Chromium kurulumu

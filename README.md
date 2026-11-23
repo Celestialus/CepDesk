@@ -1,4 +1,4 @@
-# CepDesk Türkçe Otomatik Kurulum
+# CepDesk: Türkçe Otomatik Kurulum
 <p align="center">
   <img src="CepDesk.png" width="250">
 </p>

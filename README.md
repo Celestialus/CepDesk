@@ -8,6 +8,8 @@
 
 
 ## Özellikler
+- PRoot-Distro ile Debian kurulumu
+- Native Desktop kurulumu
 - XFCE kurulumu
 - Termux:X11 desteği
 - PulseAudio kurulumu

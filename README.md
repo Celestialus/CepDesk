@@ -20,6 +20,7 @@
 - Android
 - Termux
 - Termux:X11
+- Android 12 ve Üzeri
 
 ## 📥 Gerekli Uygulamalar (Downloads)
 

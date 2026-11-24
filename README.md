@@ -45,6 +45,8 @@ bash install.sh
 wget -O start.sh https://raw.githubusercontent.com/Celestialus/CepDesk/refs/heads/main/start.sh
 bash start.sh
 ```
+## Not:
+Kurulduktan Sonra Bunu Yapıştırın otomatik açılacaktır 2. Açılışta |bash start.sh| yazmanız gerekmektedir! 
 ## 🇹🇷 Projenin Amacı
 
 CepDesk, İngilizce bilmeyen veya Termux komutlarına aşina olmayan Android kullanıcılarının Linux masaüstü ortamlarını kolayca kurabilmesi için geliştirilmektedir.
